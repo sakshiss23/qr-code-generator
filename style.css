@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+  input {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 4px #8c52ff;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  .qr-btn {
+     background: linear-gradient(90deg, #3300ff, #e52e71 );
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+  #qr-result{
+    font-weight: bold;
+  }
